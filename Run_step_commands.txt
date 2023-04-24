@@ -1,0 +1,21 @@
+#Vinuthna
+#command 1
+
+/usr/bin/python3 /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/DataCleaningandProcessing.py
+
+
+#command 2
+
+hadoop jar /Users/shalinidhamodharan/hadoop-3.2.4/share/hadoop/tools/lib/hadoop-streaming-3.2.4.jar -file /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/Process_1_Mapper_Reducer/mapper.py -mapper mapper.py -file /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/Process_1_Mapper_Reducer/reducer.py -reducer reducer.py -input /Amazon_Review_Analysis/Data_with_Review_tag.csv -output /Amazon_Review_Analysis/Amazon_Review_Process1_Output
+
+
+
+#Priyanka
+
+process run in colab
+
+#Shalini
+
+hadoop jar /Users/shalinidhamodharan/hadoop-3.2.4/share/hadoop/tools/lib/hadoop-streaming-3.2.4.jar -file  /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/Process_2_Mapper_Reducer/mapper.py -mapper mapper.py -file /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/Process_2_Mapper_Reducer/reducer.py -reducer reducer.py -input /Amazon_Review_Analysis/final_file.csv -output /Amazon_Review_Analysis/Amazon_Process2_Output 
+
+/usr/bin/python3 /Users/shalinidhamodharan/Documents/UHCL_DS/Spring2023/Big_Data/Project/bigdataproject/Project_Final/Data_Analysis.py
